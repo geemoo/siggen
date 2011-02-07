@@ -1,0 +1,5 @@
+(component-library "symbols")
+(component-library "elements")
+(debug-options (list 'stack 200000))                     
+(eval-options (list 'stack 220000)) 
+
