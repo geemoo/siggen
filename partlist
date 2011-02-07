@@ -1,0 +1,18 @@
+part							part num
+---------------------	-------------
+
+-- physical interface --
+
+lcd display 2x16			NHD-0216BZ-FL-YBW
+rotary encoder				ACZ16NBR1E-15FD1-24C
+push button					GPB024A05BR
+
+-- usb interface --
+
+
+-- dds section -- 
+
+
+-- everything else --
+
+
