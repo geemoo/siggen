@@ -1,18 +1,20 @@
-part							part num
----------------------	-------------
+part								part num							cost @ 1
+------------------------	----------------------		--------------
 
 -- physical interface --
-
-lcd display 2x16			NHD-0216BZ-FL-YBW
-rotary encoder				ACZ16NBR1E-15FD1-24C
-push button					GPB024A05BR
+lcd display 2x16				NHD-0216BZ-FL-YBW				10.79
+rotary encoder					ACZ16NBR1E-15FD1-24C			2.52
+push button						GPB024A05BR						1.34
 
 -- usb interface --
-
+USB micro 32TQFP				AT90USB162-16AU				4.00
+miniB connector				UX60SC-MB-5ST(80)				1.02
 
 -- dds section -- 
-
+75MHz DDS						AD9834CRUZ						10.71
+75MHz 3.3V osc					FNSAS2075						1.04
 
 -- everything else --
-
-
+STM32 MCU 64TQFP				STM32F100R6T6B					3.47
+BNC connector					5-1634523-1						2.19
+4x3x2.2" aluminum box		1411FU							6.66
