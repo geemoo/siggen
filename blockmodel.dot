@@ -1,5 +1,14 @@
 digraph blockmodel {
 	rankdir=LR;
-	node [shape=box];
+	node [shape=box, weigth=1];
 
+	{
+		rank=same;
+		mcu -> dds;
+	}
+
+	usb -> rs232 -> mcu;
+	dds -> filter -> attenuator -> sma;
+	mcu -> display;
+	buttons -> mcu;
 }
