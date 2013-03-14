@@ -1,0 +1,85 @@
+[labels]
+
+# visible label
+AD9951
+
+# visible attributes
+refdes=U?
+
+# invisible attributes
+! device=AD9951
+! description=400 MHz DDS
+! footprint=TQFP48EP
+! numslots=0
+
+[left]
+
+36 RESET
+35 PWRDWNCTL
+
+9  REFCLK
+8  \_REFCLK\_
+
+1 IO UPDATE
+39 \_CS\_
+40 SCLK
+38 MISO
+41 MOSI
+
+44 SYNC_IN
+11 CLKMODESELECT
+37 IOSYNC
+46 OSK 
+
+[right]
+
+21 IOUT
+20 \_IOUT\_
+
+10 CRYSTAL OUT
+
+12 LOOP_FILTER
+23 DACBP
+24 DAC_RSET
+
+45 SYNC_CLK
+
+[top]
+
+2 DVDD
+34 DVDD
+43 DVDD_I/O
+
+4 AVDD
+6 AVDD
+13 AVDD
+16 AVDD
+18 AVDD
+19 AVDD
+25 AVDD
+27 AVDD
+29 AVDD
+
+[bottom]
+
+3 DGND
+33 DGND
+42 DGND
+47 DGND
+48 DGND
+
+5 AGND
+7 AGND
+14 AGND
+15 AGND
+17 AGND
+22 AGND
+26 AGND
+28 AGND
+30 AGND
+31 AGND
+32 AGND
+EP AGND
+
+[nc]
+
