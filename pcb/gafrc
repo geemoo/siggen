@@ -1,3 +1,4 @@
+(reset-component-library)
 (component-library "symbols")
 (component-library "elements")
 (debug-options (list 'stack 200000))                     
